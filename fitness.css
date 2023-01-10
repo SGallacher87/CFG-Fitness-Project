@@ -1,0 +1,385 @@
+/*{border:1px solid red;}*/
+
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color:lightgray;
+
+}
+
+ul {
+    list-style: none;
+}
+.nav {
+    display:flex;
+    flex-direction: row;
+    background-color:grey;
+    padding: 20px;
+    height: 60px;
+    position: fixed; top: 0; left: 0; z-index: 9999; width: 100%;
+    border-bottom: solid 1px black;
+    box-shadow: 0 2px 4px 0;
+}
+
+#logo{
+    display:flex;
+    flex-direction: row;
+    font-family: 'Lobster', cursive;
+    font-size: 60px;
+    text-align: center;
+    justify-content: center;
+    width: 300px;
+    margin-top: -15px;
+    margin-left: 0px;
+
+}
+.nav ul {
+    display: flex;
+    align-items:center;
+    font-family:'Bebas Neue', cursive;
+    justify-content: 5px;
+    margin-left: 450px;
+}
+.nav li {
+    display:flex;
+    flex-direction: row;
+    padding-right: 7px;
+    font-size: 30px;
+    justify-content: space-between;
+}
+#coach {
+    display:flex;
+    flex-direction: row;
+    padding: 20px;
+}
+#res {
+    display:flex;
+    flex-direction: row;
+    padding: 20px;
+}
+#cust {
+    display:flex;
+    flex-direction: row;
+    padding: 20px;
+}
+
+
+#btn {
+    align-content: center;
+    width: 150px;
+    background-color: coral;
+    border-radius: 10px;
+    margin-right:10px;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 30px;
+}
+
+#chat {
+    font-family: 'Bebas Neue', cursive;
+    color:white;
+    background-color: lightgray;
+    font-size: 100px;
+    padding-top:100px;
+    text-align: center;
+    margin-top: 130px;
+    margin-bottom: 0;
+}
+#chat2 {
+    font-family: 'Bebas Neue', cursive;
+    color:coral;
+    background-color: lightgray;
+    font-size: 30px;
+    text-align: center;
+}
+
+#photo {
+    display:flex;
+    flex-direction:row;
+    align-items:center;
+    padding:10px;
+    background-color: black;
+    margin-top:150px;
+}
+
+#photo img {
+    display:flex;
+    width: 33%;
+
+}
+.runs{
+    display:flex;
+    flex-direction:row;
+    align-items:center;
+    justify-content:space-around;
+    background-color:black;
+    padding:20px;
+    padding-top: 50px;
+}
+
+#fivek {
+    width:15%;
+    height:15%;
+   
+    
+}
+#tenk {
+    width:15%;
+    height:15%;
+   
+}
+#half {
+    width:15%;
+    height:15%;
+    
+}
+#full {
+    width:15%;
+    height:15%;
+  
+}
+.distances {
+    display:flex;
+    flex-direction: row;
+    font-family:'Bebas Neue', cursive;
+    font-size: 30px;
+    color:white;
+    background-color: black;
+
+}
+#five_text {
+    margin-left: 80px;
+    width: 700px;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+#ten_text {
+    margin-left: 50px;
+    margin-right: 80px;
+    width:400px;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+#half_text {
+    margin-left: 0px;
+    margin-right: 100px;
+    width:500px;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+#full_text {
+    margin-right: 0px;
+    width:500px;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.details {
+    display:flex;
+    flex-direction: row;
+    font-family:'Bebas Neue', cursive;
+    font-size: 20px;
+    color:gray;
+    background-color: black;
+    margin-top: 0;
+    text-align: center;
+}
+#d-five {
+    margin-left: 20px;
+    width: 550px;
+    margin-top: 0;
+    margin-bottom: 10;
+
+}
+#d-ten{
+    margin-left: 40px;
+    margin-right: 50px;
+    width:400px;
+    margin-top: 0;
+    margin-bottom: 10;
+}
+#d-half {
+    margin-left: 0px;
+    margin-right: 30px;
+    width:500px;
+    margin-top: 0;
+    margin-bottom: 10;
+}
+#d-full {
+    margin-right: 30px;
+    width:500px;
+    margin-top: 0;
+    margin-bottom: 10;
+}
+/*.ratings {
+    display:flex;
+    flex-direction:row;
+    margin-bottom: 0px;
+    width:350px;
+    margin-top: 100px;
+    padding-bottom:0;*/
+
+
+#rev {
+    font-family:'Bebas Neue', cursive;
+    color:white;
+    font-size: 30px;
+    width:300px;
+    margin-left: 40px;
+    margin-top: 100px;
+    margin-bottom: 10px;
+
+}
+.stars {
+    font-family:'Bebas Neue', cursive;
+    color:white;
+    font-size: 40px;
+    margin-left: 240px;
+    margin-top: 150px;
+    width:100px;
+    max-height: 30px;
+
+}
+.stars p    {
+    margin:0;
+    margin-bottom:50px;
+}
+.star-img {
+    max-width: 180px;
+    max-height: 40px;
+    margin-left: 40px;
+    margin-bottom: -200px;
+
+}
+
+#rev-one {
+    font-family:'Bebas Neue', cursive;
+    color:white;
+    font-size: 30px;
+    width:400px;
+    margin-left: 40px;
+    margin-top: 70px;
+    margin-bottom: 10px;
+
+}
+.stars-one {
+    font-family:'Bebas Neue', cursive;
+    color:white;
+    font-size: 40px;
+    margin-left: 240px;
+    margin-top: 150px;
+    width:100px;
+    max-height: 30px;
+
+}
+.stars-one p    {
+    margin:0;
+    margin-bottom:50px;
+}
+.star-img-one {
+    max-width: 180px;
+    max-height: 40px;
+    margin-left: 40px;
+    margin-bottom: -200px;
+
+}
+
+
+.cf-body {
+    margin-left:500px;
+    margin-bottom: 100px;
+    margin-top: -210px;
+    height: 200px;
+    font-family:'Bebas Neue', cursive;
+    color: black;
+    background-color:gray;
+    border-radius: 5px;
+    border:1px solid darkgray;
+    width:800px;
+    box-shadow: 0 2px 4px 0;
+}
+.cf-h3 {
+    text-align:left;
+    font-size: 40px;
+    width:400px;
+    margin-top:30px;
+    margin-left: 10px;
+    
+}
+.cf-form {
+    text-align: right;
+    margin-top: 0;
+    margin-right: 30;
+    width:800px
+}
+#signup{
+    font-size: 25px;
+    margin-left: 500px;
+    margin-bottom: 50px;
+    margin-top: -135px;
+    width:280px;
+}
+#input{
+    width:250px;
+    margin-left: 500px;
+    margin-top:-50px;
+
+}
+#box {
+    width:260px;
+    height: 30px;
+}
+#cf-button{
+    margin-right: 0;
+    margin-left: 600px;
+    margin-top: 10px;
+    margin-left: 500px;
+    align-content: center;
+    width: 150px;
+    background-color: coral;
+    border-radius: 10px;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 30px;
+}
+footer {
+    bottom: 0;
+    min-width: 100%;
+    height: 80px;
+    margin-left: 0;
+    display:flex;
+    flex-direction: row;
+    background-image: linear-gradient(lightgray, black);
+}
+#insta {
+    margin-left: 10px;
+    height:70%;
+}
+#fb {
+    margin-left: 10px;
+    height:70%;
+}
+#strav {
+    margin-left: 30px;
+    height:70%;
+
+}
+#social {
+    font-family: 'Bebas Neue', cursive;
+    color:white;
+    font-size: 30px;
+    width:100px;
+    margin-left: 900px;
+    margin-top: 7px;
+}
+#mail {
+    margin-left: 10px;
+    height:70%;
+}
+#con {
+    font-family: 'Bebas Neue', cursive;
+    color:white;
+    font-size: 30px;
+    margin-left:10px;
+    margin-top:7px;
+
+}
