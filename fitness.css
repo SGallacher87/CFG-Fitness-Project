@@ -32,6 +32,7 @@ ul {
     width: 300px;
     margin-top: -15px;
     margin-left: 0px;
+    cursor: pointer;
 
 }
 .nav ul {
@@ -40,6 +41,7 @@ ul {
     font-family:'Bebas Neue', cursive;
     justify-content: 5px;
     margin-left: 450px;
+    cursor: pointer;
 }
 .nav li {
     display:flex;
@@ -73,6 +75,7 @@ ul {
     margin-right:10px;
     font-family: 'Bebas Neue', cursive;
     font-size: 30px;
+    cursor: pointer;
 }
 
 #chat {
@@ -120,24 +123,32 @@ ul {
 #fivek {
     width:15%;
     height:15%;
+    cursor: pointer;
    
     
 }
+
 #tenk {
     width:15%;
     height:15%;
+    cursor: pointer;
    
 }
+
 #half {
     width:15%;
     height:15%;
+    cursor: pointer;
     
 }
+
 #full {
     width:15%;
     height:15%;
+    cursor: pointer;
   
 }
+
 .distances {
     display:flex;
     flex-direction: row;
@@ -340,6 +351,7 @@ ul {
     border-radius: 10px;
     font-family: 'Bebas Neue', cursive;
     font-size: 30px;
+    cursor: pointer;
 }
 footer {
     bottom: 0;
@@ -353,14 +365,17 @@ footer {
 #insta {
     margin-left: 10px;
     height:70%;
+    cursor: pointer;
 }
 #fb {
     margin-left: 10px;
     height:70%;
+    cursor: pointer;
 }
 #strav {
     margin-left: 30px;
     height:70%;
+    cursor: pointer;
 
 }
 #social {
@@ -374,6 +389,7 @@ footer {
 #mail {
     margin-left: 10px;
     height:70%;
+    cursor: pointer;
 }
 #con {
     font-family: 'Bebas Neue', cursive;
@@ -382,4 +398,29 @@ footer {
     margin-left:10px;
     margin-top:7px;
 
+}
+
+#go-top-button {
+    display: none; /* Hidden by default */
+    position: fixed; /* Fixed/sticky position */
+    bottom: 20px; /* Place the button at the bottom of the page */
+    right: 680px; /* Place the button 30px from the right */
+    z-index: 99; /* Make sure it does not overlap */
+    border: none;/* Remove borders */
+    outline: none; /* Remove outline */
+    background-color: coral; /* Set a background color */
+    color: black;
+    font-family:'Bebas Neue'; /* Text color */
+    cursor: pointer; /* Add a mouse pointer on hover */
+    padding-left: 30px; 
+    padding-right: 30px;
+    padding-top: 5px;
+    padding-bottom: 5px;/* Some padding */
+    border-radius: 5px; /* Rounded corners */
+    font-size: 18px; /* Increase font size */
+}
+
+#go-top-button:hover {
+    background-color: lightgrey;
+    color: white; /* Add a dark-grey background on hover */
 }
